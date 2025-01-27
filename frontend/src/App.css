@@ -1,0 +1,45 @@
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+.home-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-input {
+    margin-bottom: 20px;
+}
+
+.video-input input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.video-input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.video-input button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed
+}
+
+.summary-display {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.pdf-export {
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}
